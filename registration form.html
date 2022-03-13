@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+    <link rel="stylesheet" href="registration form.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Registration form</h1>
+    </header>
+    <hr>
+
+    <main>
+        <form action="/nowhere">
+            <p>
+                <label for="fname">First Name* :</label>
+                <input type="text" placeholder="first name" id="fname" name="fnm" required>
+            </p>
+            <p>
+                <label for="lname">Last Name* :</label>
+                <input type="text" placeholder="last name" id="lname" name="lnm" required>
+            </p>
+            <p>
+                <label for="eml">Email Address* :</label>
+                <input type="email" placeholder="email address" id="eml" name="emladd" required>
+            </p>
+            <p>
+                <label for="usrnm">Username* :</label>
+                <input type="text" placeholder="username" id="usrnm" name="un" required>
+            </p>
+            <p>
+                <label for="pswrd">Password* :</label>
+                <input type="password" name="ps" id="pswrd" placeholder="password" required>
+            </p>
+
+            <p>
+                <label for="dob">Date of Birth* :</label>
+                <input type="date" name="dt" id="dob" placeholder="select your DOB" required>
+
+            </p>
+            <p>
+                Gender :
+
+                <input type="radio" name="gndr" id="M">
+                <label for="M">Male</label>
+
+                <input type="radio" name="gndr" id="F">
+                <label for="F">Female</label>
+
+                <input type="radio" name="gndr" id="Ot">
+                <label for="Ot">Others</label>
+            </p>
+            <p>
+                <label for="stut">Please select your state/UT* :</label>
+                <select name="stt" id="stut" required>
+                    <option value="">--please select your state/UT--</option>
+                    <option value="a&n">Andaman and Nicobar Islands</option>
+                    <option value="andrP">Andhra Pradesh</option>
+                    <option value="arnclP">Arunachal Pradesh</option>
+                    <option value="asm">Assam</option>
+                    <option value="br">Bihar</option>
+                    <option value="cndgr">Chandigarh</option>
+                    <option value="ctsgr">Chhattisgarh</option>
+                    <option value="d&n&d&d">Dadra and Nagar Haveli and Daman and Diu</option>
+                    <option value="dli">Delhi</option>
+                    <option value="goa">Goa</option>
+                    <option value="gjrt">Gujarat</option>
+                    <option value="hryn">Haryana</option>
+                    <option value="hP">Himachal Pradesh</option>
+                    <option value="j&k">Jammu and Kashmir</option>
+                    <option value="jrknd">Jharkhand</option>
+                    <option value="krntk">Karnataka </option>
+                    <option value="krl">Kerala</option>
+                    <option value="ldk">Ladakh</option>
+                    <option value="lksdp">Lakshadweep</option>
+                    <option value="mP">Madhya Pradesh</option>
+                    <option value="mhrstr">Maharashtra</option>
+                    <option value="mnpr">Manipur</option>
+                    <option value="mgly">Meghalaya</option>
+                    <option value="mzrm">Mizoram</option>
+                    <option value="nglnd">Nagaland</option>
+                    <option value="odsa">Odisha</option>
+                    <option value="pdcry">Puducherry </option>
+                    <option value="pnjb">Punjab</option>
+                    <option value="rjstn">Rajasthan</option>
+                    <option value="skkm">Sikkim</option>
+                    <option value="tmlndu">Tamil Nadu</option>
+                    <option value="tlngna">Telangana</option>
+                    <option value="trpra">Tripura</option>
+                    <option value="uP">Uttar Pradesh</option>
+                    <option value="utrknd">Uttarakhand</option>
+                    <option value="wb">West Bengal</option>
+                </select>
+            </p>
+            <p>
+                <label for="pin">Pincode/Zipcode* :</label>
+                <input type="number" name="pncd" id="pin" max="999999" min="100000" placeholder="six digits" required>
+            </p>
+            <p>
+                <label for="phnno">Phone no.* :</label>
+                <input type="tel" name="contact" id="phnno" placeholder="phone number" required>
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <p><b> Copyright &copy; | All Rights Reserved </b></p>
+        <p>
+
+
+            Piyush Kumar (2021UGEE049)
+        </p>
+    </footer>
+
+
+</body>
+
+</html>

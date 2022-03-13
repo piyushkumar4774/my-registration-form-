@@ -1,0 +1,47 @@
+
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background-color: #14161b;
+    color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: rgb(231, 139, 1);
+}
+
+form{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+p{
+    font-family: Noto sans JP, sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+button{
+    margin-left: 1rem;
+    background: none;
+    color: #ffa260;
+    border: 2px solid;  
+    padding: 0.5em 1em;  
+    font-size: 1em;
+    transition: all 0.2s;
+}
+button:hover{
+    border-color: #ffe553;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
